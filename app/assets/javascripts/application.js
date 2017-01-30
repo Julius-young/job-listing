@@ -16,3 +16,11 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
+//= require bootstrap/carousel
+// = require bootstrap/tab
+//= require local_time
+
+$(document).ready(function() {
+  $('#myCarousel').carousel({interval: 1500});
+
+});
